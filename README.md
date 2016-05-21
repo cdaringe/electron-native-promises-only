@@ -10,6 +10,10 @@ electron supports _native_ promises only.  this is great, but restricting.
 - `npm install` this cloned repo
 - `node_modules/.bin/electron main.js`
 
+<img src="https://raw.githubusercontent.com/cdaringe/electron-native-promises-only/master/img/electron-promise-support.mov.gif" />
+
+^^ sorry for killing your data-plan ;)
+
 click the two buttons! watch that native promise button work, and the bluebird promise button tank.
 
 ## solution

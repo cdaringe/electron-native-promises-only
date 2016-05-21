@@ -10,9 +10,13 @@
     We are using node <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
-    <div id="hook">
-      <button onclick="remoteBluebird()">Call bluebird promise via remote</button>
-      <button onclick="remoteNative()">Call native promise via remote</button>
+    <div>
+      <button onclick="resolveBluebird()">Call bluebird resolve() via remote</button>
+      <button onclick="resolveNative()">Call native resolve() via remote</button>
+    </div>
+    <div>
+      <button onclick="rejectBluebird()">Call bluebird reject() via remote</button>
+      <button onclick="rejectNative()">Call native reject() via remote</button>
     </div>
   </body>
 

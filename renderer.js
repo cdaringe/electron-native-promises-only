@@ -1,8 +1,15 @@
 const app = require('electron').remote.app
 
-window.remoteBluebird = () => {
-  app.bluebird().then((val) => console.log(val))
+window.resolveBluebird = () => {
+  app.bluebird.resolve().then((val) => console.log(val))
 }
-window.remoteNative = () => {
-  app.native().then((val) => console.log(val))
+window.resolveNative = () => {
+  app.native.resolve().then((val) => console.log(val))
+}
+
+window.rejectBluebird = () => {
+  app.bluebird.reject().catch((err) => console.error(val))
+}
+window.rejectNative = () => {
+  app.native.reject().catch((err) => console.error(val))
 }

@@ -2,7 +2,7 @@
 
 Fixed in electron 1.2.0.  See [ref](https://github.com/electron/electron/commit/32073fa079c26400cb805a12e8f1b6feb54d0c32)
 
-<img src="https://raw.githubusercontent.com/cdaringe/electron-native-promises-only/master/img/electron-promises-1.2.0.mov" />
+<img src="https://raw.githubusercontent.com/cdaringe/electron-native-promises-only/master/img/electron-promises-1.2.0.mov.gif" />
 
 
 # electron-native-promises-only

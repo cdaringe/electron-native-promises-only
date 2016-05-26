@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.4.0",
-    "electron-prebuilt": "^1.1.1"
+    "electron-prebuilt": "https://github.com/electron-userland/electron-prebuilt"
   }
 }

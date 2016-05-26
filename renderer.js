@@ -8,8 +8,8 @@ window.resolveNative = () => {
 }
 
 window.rejectBluebird = () => {
-  app.bluebird.reject().catch((err) => console.error(val))
+  app.bluebird.reject().catch((err) => console.error(err))
 }
 window.rejectNative = () => {
-  app.native.reject().catch((err) => console.error(val))
+  app.native.reject().catch((err) => console.error(err))
 }
